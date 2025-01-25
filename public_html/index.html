@@ -3,36 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>Aeonian Projects</title>
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body class="">
-    <div id="webpage"class="shadow-xl mx-auto max-w-4xl  bg-white text-indigo-900 px-4 pt-1 pb-4">
-    <div id="contact" class="flex justify-evenly">
-      <div><a href="tel:+441482762392" rel="nofollow">&#9743; +44 1482 762 392</a></div>
-      <div><a href="mailto:info@aeonianprojects.co.uk">&#9993; info@aeonianprojects.co.uk</a></div>
-    </div>
-    <div id="logo" class="flex">
-      <img src="./logo-1.jpg">
-    </div>
-    <hr class="pb-4">
-    <div class="relative">
-    <img src="./gdpr-3438443_640.jpg" class="h-32 w-screen object-cover">
-    <div class="absolute inset-0 text-white items-center flex text-3xl font-bold justify-center">GDPR and Data Protection</div>
+    <div
+      id="webpage"
+      class="shadow-xl mx-auto max-w-4xl bg-white text-indigo-900 px-4 pt-1 pb-4"
+    >
+      <div id="contact" class="flex justify-evenly">
+        <div>
+          <a href="tel:+441482762392" rel="nofollow"
+            >&#9743; +44 1482 762 392</a
+          >
+        </div>
+        <div>
+          <a href="mailto:info@aeonianprojects.co.uk"
+            >&#9993; info@aeonianprojects.co.uk</a
+          >
+        </div>
       </div>
-    <div id="content">
-    <p class="text-center font-bold pt-4">Welcome to Aeonian Projects</p>
-
-    <p class="pt-2">We are experts in helping businesses, charities and not-for-profits navigate the complex world of GDPR, Data Protection, and privacy. Over the last decade individual privacy and data protection have become key issues for many organisations, with some careless companies receiving fines of millions of pounds.</p>
-
-    <p class="pt-2">At Aeonian Projects we’re passionate about helping you and your organisation meet your statutory obligations with respect to data protection. We have helped organisations both large and small deal with hundreds of Data Breaches and Subject Access Requests, delivered training to hundreds of people, and implemented compliance frameworks to reduce data protection risks – to name but a few of the ways we can help you!
-    </p>
-
-    <p class="pt-2">We can provide you with one off support via our Savvy Data Credits or on-going support via Savvy Data Monthly, and we can even act as your ‘in house’ virtual Data Protection Officer.</p>
-    </div>
-    </div>
-      <div class="max-w-4xl">
-        Hello
+      <div id="logo" class="flex">
+        <img src="./logo-1.jpg" alt="Aeonian Projects" />
       </div>
+      <hr class="pb-4" />
+      <div class="relative">
+        <img
+          src="./gdpr-3438443_640.jpg"
+          class="h-32 w-screen object-cover"
+          alt="GDPR"
+        />
+        <div
+          class="absolute inset-0 text-white items-center flex text-3xl font-bold justify-center"
+        >
+          GDPR and Data Protection
+        </div>
+      </div>
+      <div id="content">
+        <p class="text-center font-bold pt-4">Welcome to Aeonian Projects</p>
+
+        <p class="pt-2">
+          We are experts in helping businesses, charities and not-for-profits
+          navigate the complex world of GDPR, Data Protection, and privacy. Over
+          the last decade individual privacy and data protection have become key
+          issues for many organisations, with some careless companies receiving
+          fines of millions of pounds.
+        </p>
+
+        <p class="pt-2">
+          At Aeonian Projects we’re passionate about helping you and your
+          organisation meet your statutory obligations with respect to data
+          protection. We have helped organisations both large and small deal
+          with hundreds of Data Breaches and Subject Access Requests, delivered
+          training to hundreds of people, and implemented compliance frameworks
+          to reduce data protection risks – to name but a few of the ways we can
+          help you!
+        </p>
+
+        <p class="pt-2">
+          We can provide you with one off support via our Savvy Data Credits or
+          on-going support via Savvy Data Monthly, and we can even act as your
+          ‘in house’ virtual Data Protection Officer.
+        </p>
+
+        <p class="pt-4 text-center">Contact us today!</p>
+        <p class="pt-4 text-center">
+          <a href="tel:+441482762392" rel="nofollow"
+            >&#9743; +44 1482 762 392</a
+          >
+          <br />
+          <a href="mailto:info@aeonianprojects.co.uk"
+            >&#9993; info@aeonianprojects.co.uk</a
+          >
+        </p>
+      </div>
+    </div>
+    <footer class="mx-auto max-w-4xl text-sm text-slate-500 px-4 pt-1 pb-4">
+      Copyright &copy; <span id="year"></span>
+    </footer>
+    <script>
+      const thisYear = new Date().getFullYear();
+      document.getElementById("year").textContent = thisYear;
+    </script>
   </body>
 </html>
